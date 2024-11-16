@@ -19,7 +19,7 @@ print(bool([])) # False.Empty list are always False
 print(bool(())) # False. Empty tuple are always false
 print(bool({})) # False. Empty dict are always False
 
-# Any oject crerated from a class with the __len__ function returns 0 or False
+# Any object created from a class with the __len__ function returns 0 or False
 class Car():
   def __len__(self):
     return 0

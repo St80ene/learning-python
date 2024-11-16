@@ -44,7 +44,7 @@ print(f'I am {age + 5} years old')
 price = 1208
 print(f'fuel is {price:.2f} Naira')
 
-# add math operation
+# add math operation and format
 txt1 = f"The price is {20 * 59} dollars"
 print(txt1)
 
