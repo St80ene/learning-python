@@ -87,3 +87,5 @@ print('javascript_programming_lang_count', javascript_programming_lang_count) # 
 python_programming_lang_index = programming_language.count('Python')
 
 print('python_programming_lang_index', python_programming_lang_index) # 1
+
+print(type(programming_language))
