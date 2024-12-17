@@ -34,6 +34,8 @@ print('A') if a > b else print('b') if b > a else print('they are the same')
 x = 200
 g = 33
 h = 500
+
+
 if h > x and h < b:
   print('they are both true')
 else:
@@ -57,6 +59,6 @@ if a > b:
   else:
     print('equal to 5')
     
-# using the 'pass' keyword to bypass empty if statement
+# using the 'pass' keyword to bypass an empty 'if' statement
 if a > b:
   pass
